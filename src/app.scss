@@ -1,0 +1,12 @@
+$subtitles-color: brown;
+
+#container {
+  width: 1200px;
+  background-color: lightgrey;
+  padding: 10px;
+  border: 1px solid gold;
+
+  .second-title, .third-title {
+    color: $subtitles-color;
+  }
+}
